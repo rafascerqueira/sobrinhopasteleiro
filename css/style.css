@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Cabin:500);
+
+/** Grid Setting **/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class^="col-"] {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+/** Close Grids **/
+
+* {
+  font-family: 'Cabin',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#gridstyle {
+  height: 30px;
+  background-color: rgba(102, 204, 255, 0.5);
+  border: 1px solid black;
+  display: block;
+}
+
+#top-site {
+  height: 100pt;
+  border-radius: 10px;
+}
+
+#logo img {
+  padding-left: 10px;
+}
+
+#h-bottom {
+  border: 5px solid #FF0000;
+  border-top-style: none;
+  border-radius: 5px;
+}
+
+#menu {
+  padding: 0px;
+}
+
+#menu ul {
+  background-color: rgba(153, 153, 133, 1);
+  list-style: none;
+  padding: 0 10px;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+li.to-right {
+  float: right;
+}
+
+#menu ul li a{
+  padding: 2px;
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  text-shadow: 1px 1px 3px rgba(51, 255, 255, 0.5);
+  background-color: rgba(15, 15, 10, 0.5);
+}
+
+#left-site {
+  height: 600px;
+  border-right: 1px solid black;
+}
+
+#left-site img {
+  max-width: 100%;
+}
+
+.content{
+  padding: 0 30px;
+  font-size: 12pt;
+}
+
+.content h2 {
+  font-size: 9pt;
+}
+
+.content h1 {
+  letter-spacing: 3px;
+}
+
+.content p {
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.content form {
+  text-align: center;
+  padding: 0 100px;
+}
+
+.content form h1 {
+  font-size: 16pt;
+}
+
+legend {
+  color: #FF0000;
+}
+
+input[type=text], input[type=date], input[type=number]{
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+  background-color: #000033;
+  border: none;
+  color: #E6E6FF;
+  padding: 4px 6px;
+  text-decoration: none;
+  margin: 4px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+input[type=button]:hover {
+  box-shadow: 0 4px 6px 0 rgba(0,102,102,0.24), 0 4px 6px 6px; rgba(0,0,0,0.24);
+}
+
+.contatoForm input[type=text], .contatoForm input[type=email] {
+  border: none;
+  border-bottom: 2px solid #999999;
+  border-radius: 0px;
+  width: 50%;
+  padding: 4px;
+  margin: 10px;
+  font-size: 12pt;
+}
+
+.contatoForm legend {
+  padding: 20px;
+}
+
+textarea {
+  width: 70%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  font-size: 14pt;
+}
+
+input[type=submit] {
+  font-size: 16pt;
+  background-color: #999999;
+  color: #FFFFFF;
+  border: none;
+  margin: 10px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.content p.tiny-right {
+  font-size: 8pt;
+  float: right;
+  padding-right: 30px;
+}
+
+p.reference{
+  text-align: center;
+}
+
+/* TABLE */
+
+#tconfig {
+  border: 1px solid rgba(15, 15, 10, 0.5);
+  border-spacing: 0;
+  margin: auto;
+}
+
+#tconfig td {
+  border: 1px solid rgba(15, 15, 10, 0.5);
+  padding: 0 20pt;
+  text-align: center;
+}
+
+.rowcor1 {
+  background-color: rgba(15, 15, 10, 0.5);
+  color: #E6E6E6;
+}
+
+.rowcor2 {
+  background-color: rgba(217, 217, 217, 1);
+}
+
+#bot-site {
+  padding: 0 30px;
+  height: 30pt;
+  background-color: #1A1A1A;
+  border-top: 5px solid rgba(0, 0, 51, 0.5);
+}
+
+#bot-site h3 {
+  color: #F5F5F5;
+  font-size: 10pt;
+  text-align: center;
+}
+
+#bot-site h3 a {
+  color: inherit;
+}
