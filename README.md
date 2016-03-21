@@ -32,8 +32,8 @@ direcionando ao repositório (aqui).
 Encontra-se sob *MIT Lisence* a distribuição dos arquivos, além da motivação
 didática, não recomendo usar nenhum trecho do código para fins comerciais,
 visto que não foi esta intenção. Caso goste de alguma coisa e queira usar pra
-fins comerciais e queira minha ajuda, favor entrar em contato no próprio
-formulário de contato do site, ou no e-mail para tratar disso profissionalmente.  
+fins comerciais e queira minha ajuda, favor entrar em contato ~~no próprio
+formulário de contato do site~~, ou no e-mail para tratar disso profissionalmente.  
 
 2. Sobre Este arquivo/ficheiro (README.md)
 
