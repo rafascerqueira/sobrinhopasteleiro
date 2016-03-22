@@ -121,7 +121,7 @@ legend {
   color: #FF0000;
 }
 
-input[type=text], input[type=date], input[type=number]{
+input[type=text], input[type=date], input[type=number], input[type=password]{
     margin: 2px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -194,6 +194,64 @@ input[type=submit]:hover {
 p.reference{
   text-align: center;
 }
+
+/* Login Estilizado */
+#login-user p {
+  text-align: center;
+}
+
+#cLogin {
+  height: 400px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#cLogin legend {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.mid{
+  text-align: right;
+  padding-right: 100px;
+  position: relative;
+  top: 100px;
+}
+
+.mid input[type=submit] {
+  font-size: 10pt;
+  padding: 4px 20px;
+}
+
+.mid input[type=text], .mid input[type=password]{
+  font-size: 10pt;
+  padding: 4px 4px;
+}
+
+.mid input[type=button]{
+  border-radius: 6px;
+}
+
+#outside-login {
+  padding: 20px;
+  text-align: right;
+  padding-right: 200px;
+}
+
+#regForm {
+  visibility: hidden;
+}
+
+#regForm input{
+  width: 50%;
+  padding: 4px;
+  font-size: 10pt;
+}
+
+#regForm input[type=submit]{
+  font-size: 14pt;
+}
+
 
 /* TABLE */
 
