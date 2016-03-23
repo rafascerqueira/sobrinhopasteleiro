@@ -20,34 +20,27 @@
       <div id="h-bottom">
         <nav id="menu">
           <ul>
-            <li onmouseover="glyphOver('img/home-glyph.png')" onmouseout="glyphOver('img/contato-glyph.png')"><a href="http://sobrinhopasteleiro.atspace.cc/">Home</a></li>
-            <li onmouseover="glyphOver('img/cifrao-glyph.png')" onmouseout="glyphOver('img/contato-glyph.png')"><a href="<?php echo $_SERVER['HTTP_URI'] . "sim-cred.php"; ?>">Sim Cred</a></li>
-            <li onmouseover="glyphOver('img/trade-glyph.png')" onmouseout="glyphOver('img/contato-glyph.png')"><a href="<?php echo $_SERVER['HTTP_URI'] . "sim-invest.php"; ?>">Sim Invest</a></li>
+            <li><a href="http://sobrinhopasteleiro.atspace.cc/">Home</a></li>
+            <li><a href="<?php echo $_SERVER['HTTP_URI'] . "sim-cred.php"; ?>">Sim Cred</a></li>
+            <li><a href="<?php echo $_SERVER['HTTP_URI'] . "sim-invest.php"; ?>">Sim Invest</a></li>
             <li><a href="<?php echo $_SERVER['HTTP_URI'] . "contato.php"; ?>">Contato</a></li>
-            <li onmouseover="glyphOver('img/sobre-glyph.png')" onmouseout="glyphOver('img/contato-glyph.png')"><a href="<?php echo $_SERVER['HTTP_URI'] . "sobre.php"; ?>">Sobre</a></li>
-            <li class="to-right"><a href="<?php echo $_SERVER['HTTP_URI'] . "login.php"?>">Login</a></li>
+            <li><a href="<?php echo $_SERVER['HTTP_URI'] . "sobre.php"; ?>">Sobre</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <!-- Corpo do Site -->
-    <div id="left-site" class="col-2">
-      <img id="glyph" src="img/contato-glyph.png" alt="Home"/>
-    </div>
-    <article class="col-10">
-    <div class="content">
-      <h2>Home > Contato</h2>
-      <br><br>
 
-      <h1>FORMULÁRIO DE CONTATO</h1>
-
+    <div class="col-12" id="outside-login">
+      <h1>USUÁRIO CADASTRADO COM SUCESSO!</h1>
       <?php
-        echo "<br/><br/><p>Sua mensagem foi enviada com sucesso</p>";
+        for ($i=0; $i < 20; $i++) {
+          echo "<br/>";
+        }
       ?>
-
     </div>
-    </article>
+
 
     <!-- Rodapé do Site -->
     <footer id="bot-site" class="col-12">

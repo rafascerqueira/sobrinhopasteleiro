@@ -38,7 +38,6 @@
             Usuário <input type="text" name="user_name" placeholder=" Nome de usuário" required><br/>
             Senha <input type="password" name="password" placeholder=" Senha" required><br/>
           <input type="submit" name="entrar" value="Entrar">
-          <input type="button" name="registrar" value="Registre-se" onclick="register()">
         </div>
         </fieldset>
 
@@ -46,8 +45,8 @@
     </div>
     <div class="col-8" id="outside-login">
       <h1>Entre ou Registre-se</h1> <br/> <br/>
-      <form id="regForm" action="register.php" method="post">
-        Nome Completo <input type="text" name="regNomeCompl" required> <br/>
+      <form id="regForm" action="conn.php" method="post">
+        Nome Completo <input type="text" name="regNome" required> <br/>
         E-mail <input type="text" name="regEmail" required> <br/>
         Usuário <input type="text" name="regUser" required> <br/>
         Senha <input type="password" name="regPswd" required> <br/>

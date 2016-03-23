@@ -220,12 +220,13 @@ p.reference{
 
 .mid input[type=submit] {
   font-size: 10pt;
-  padding: 4px 20px;
+  padding: 4px;
+  width: 50%;
 }
 
 .mid input[type=text], .mid input[type=password]{
   font-size: 10pt;
-  padding: 4px 4px;
+  padding: 4px;
 }
 
 .mid input[type=button]{
@@ -233,17 +234,16 @@ p.reference{
 }
 
 #outside-login {
-  padding: 20px;
   text-align: right;
-  padding-right: 200px;
+  display: inline-block;
+  padding: 5% 10%;
 }
 
 #regForm {
-  visibility: hidden;
 }
 
 #regForm input{
-  width: 50%;
+  width: 40%;
   padding: 4px;
   font-size: 10pt;
 }

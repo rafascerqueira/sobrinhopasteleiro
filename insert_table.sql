@@ -1,0 +1,8 @@
+USE 2010989_sobpast;
+CREATE TABLE superteste (
+  id INT NOT NULL,
+  usuario VARCHAR(45) NOT NULL,
+  senha VARCHAR(45) NOT NULL,
+  nome VARCHAR(45) NOT NULL,
+  email VARCHAR(45) NOT NULL,
+  PRIMARY KEY (id));
