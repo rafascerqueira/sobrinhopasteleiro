@@ -1,5 +1,5 @@
 USE 2010989_sobpast;
-CREATE TABLE superteste (
+CREATE TABLE membros (
   id INT NOT NULL,
   usuario VARCHAR(45) NOT NULL,
   senha VARCHAR(45) NOT NULL,
