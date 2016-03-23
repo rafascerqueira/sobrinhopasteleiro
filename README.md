@@ -1,6 +1,6 @@
 # SOBRINHO PASTELEIRO
 
-## [Site](http://sobrinhopasteleiro.atspace.cc/).
+## Nota de lançamentos -> [Releases](https://github.com/rafascerqueira/sobrinhopasteleiro/blob/master/releases.md).
 
 #### Estrutura do Site:
 
