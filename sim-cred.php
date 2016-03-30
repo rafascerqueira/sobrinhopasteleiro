@@ -39,24 +39,24 @@
   <div class="content">
     <h2>Home > Sim-Cred</h2>
     <br><br>
-    <form>
+    <form id="content-cred">
       <h1>FICHA CADASTRAL E INFORMAÇÃO SOBRE FOLHA DE PAGAMENTO</h1>
       <br>
-      <fieldset id="daPe"><legend>DADOS PESSOAIS</legend>
+      <fieldset class="fieldcred"><legend>DADOS PESSOAIS</legend>
         <label for="fNome">Nome</label>&nbsp;<input type="text" name="nome" id="fNome" min="6" size="30" maxlength="40" placeholder="Nome Completo" required><br>
         Inscrição&nbsp;<input type="text" name="numinsc" id="fInsc" required><br>
         Nascimento&nbsp;<input type="date" name="nasc" id="fNasc" required><br>
-        Núm. CPF&nbsp;<input type="text" name="cpf" id="fCpf" required><br>
+        Núm. CPF&nbsp;<input type="text" name="cpf" maxlength="14" id="fCpf" required onkeypress="formatString('###.###.###-##', this)"><br>
         Admissão&nbsp;<input type="date" name="inicio" id="fAdm"><br>
         Renda Bruta&nbsp;<input type="text" name="rbm" id="fRbm"><br>
       </fieldset>
-      <fieldset id="daAd"><legend>DADOS ADICIONAIS</legend>
+      <fieldset class="fieldcred"><legend>DADOS ADICIONAIS</legend>
         Imposto de Renda&nbsp;<input type="text" name="irrf" id="fIR"><br>
         Pensão Alimentícia&nbsp;<input type="text" name="pa" id="fPA"><br>
         Outros empréstimos&nbsp;<input type="text" name="outros" id="fOutros"><br>
         Margem Atualizada&nbsp;<input type="text" name="pmt" id="fMargem" value="0,00" readonly><br>
       </fieldset>
-      <fieldset id="calFin"><legend>CÁLCULO E SIMULAÇÃO DE FINANCIAMENTO</legend>
+      <fieldset class="fieldcred"><legend>CÁLCULO E SIMULAÇÃO DE FINANCIAMENTO</legend>
         Saldo Devedor&nbsp;<input type="text" name="sldev" value="0,00"><br>
         Valor Pretendido&nbsp;<input type="text" name="valor" placeholder="Ex.: 1.000,00"><br>
         Valor da Parcela&nbsp;<input type="text" name="parc" placeholder="Mín. 10,00"><br>

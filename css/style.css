@@ -29,13 +29,6 @@
   padding: 0;
 }
 
-#gridstyle {
-  height: 30px;
-  background-color: rgba(102, 204, 255, 0.5);
-  border: 1px solid black;
-  display: block;
-}
-
 #top-site {
   height: 100pt;
   border-radius: 10px;
@@ -50,6 +43,8 @@
   border-top-style: none;
   border-radius: 5px;
 }
+
+/** Menu Config **/
 
 #menu {
   padding: 0px;
@@ -81,14 +76,19 @@ li.to-right {
   background-color: rgba(15, 15, 10, 0.5);
 }
 
+/** Aside config **/
+
 #left-site {
-  height: 600px;
+  height: 640px;
   border-right: 1px solid black;
+  position:relative;
 }
 
 #left-site img {
   max-width: 100%;
 }
+
+/** Content site Config **/
 
 .content{
   padding: 0 30px;
@@ -108,18 +108,33 @@ li.to-right {
   text-align: justify;
 }
 
-.content form {
-  text-align: center;
-  padding: 0 100px;
-}
-
-.content form h1 {
-  font-size: 16pt;
-}
-
 legend {
   color: #FF0000;
+  text-align: center;
+  padding: 0 10px;
 }
+
+/** Sim-cred content **/
+#content-cred {
+  margin: auto;
+  text-align: right;
+  display: inline-block;
+}
+
+#content-cred input[type=text], #content-cred input[type=date], #content-cred input[type=button]{
+  padding: 4px;
+  margin-right: 30%;
+}
+#content-cred input[type=text], #content-cred input[type=date] {
+  color: rgba(0, 0, 102, 0.6);
+}
+
+#content-cred input[type=number] {
+  padding: 4px;
+  margin-right: 55px;
+}
+
+/** Text Field Form Config **/
 
 input[type=text], input[type=date], input[type=number], input[type=password]{
     margin: 2px 0;
@@ -155,12 +170,13 @@ input[type=button]:hover {
   font-size: 12pt;
 }
 
-.contatoForm legend {
-  padding: 20px;
+#cForm {
+  text-align: center;
+  margin: auto;
 }
 
 textarea {
-  width: 70%;
+  width: 50%;
   height: 200px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -237,9 +253,6 @@ p.reference{
   text-align: right;
   display: inline-block;
   padding: 5% 10%;
-}
-
-#regForm {
 }
 
 #regForm input{
