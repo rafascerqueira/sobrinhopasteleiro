@@ -1,8 +1,10 @@
-USE 2010989_sobpast;
-CREATE TABLE membros (
-  id INT NOT NULL,
-  usuario VARCHAR(45) NOT NULL,
-  senha VARCHAR(45) NOT NULL,
-  nome VARCHAR(45) NOT NULL,
-  email VARCHAR(45) NOT NULL,
-  PRIMARY KEY (id));
+use sobrinho;
+
+CREATE TABLE IF NOT EXISTS membros (
+    id INT NOT NULL AUTO_INCREMENT,
+    usuario VARCHAR(16) NOT NULL UNIQUE,
+    senha VARCHAR(12) NOT NULL,
+    nome VARCHAR(30) NOT NULL,
+    email VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id)
+)  DEFAULT CHARSET=UTF8;
