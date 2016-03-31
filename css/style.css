@@ -239,6 +239,20 @@ p.reference{
   padding: 5% 10%;
 }
 
+#outside-login a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 1);
+  transition: color 2s;
+  -webkit-transition: color 2s;
+  -moz-transition: color 2s;
+  -o-transition: color 2s;
+}
+
+#outside-login a:hover {
+  color: rgba(255, 0, 0, 0.8);
+}
+
 #regForm {
 }
 
@@ -275,6 +289,9 @@ p.reference{
 .rowcor2 {
   background-color: rgba(217, 217, 217, 1);
 }
+
+
+/* Footer Site */
 
 #bot-site {
   padding: 0 30px;

@@ -50,7 +50,7 @@
       <br><br>
       <p>A distribuição do código fonte será feita em um repositório do Github no perfil do criador, e respeitando as condições sob a licença acima, você poderá inclusive modificar e sugerir melhorias ao código original.</p>
       <br>
-      <p class="reference"><a href="https://github.com/rafascerqueira/sobrinhopasteleiro">Source / Código Fonte [Github]</a></p>
+      <p class="reference"><a href="https://github.com/rafascerqueira/sobrinhopasteleiro" target="_blank">Source / Código Fonte [Github]</a></p>
     </div>
     </article>
 

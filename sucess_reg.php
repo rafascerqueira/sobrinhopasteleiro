@@ -34,8 +34,10 @@
 
     <div class="col-12" id="outside-login">
       <h1>USUÁRIO CADASTRADO COM SUCESSO!</h1>
+      <br/><br/>
+      <a href="<?php echo $_SERVER['HTTP_URI'] . "login.php"?>">Voltar</a>
       <?php
-        for ($i=0; $i < 20; $i++) {
+        for ($i=0; $i < 15; $i++) {
           echo "<br/>";
         }
       ?>
